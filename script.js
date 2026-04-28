@@ -1,12 +1,12 @@
 // --- 1. DATA LOAD ---
-// This command loads your CSV data into the 'orders' collection
+
 db.orders.insertMany([
   { "Order ID": "CA-2016-152156", "Category": "Furniture", "Region": "South", "Sales": 261.96, "Profit": 41.91, "Ship Mode": "Second Class" },
   { "Order ID": "CA-2016-138688", "Category": "Office Supplies", "Region": "West", "Sales": 14.62, "Profit": 6.87, "Ship Mode": "Second Class" },
   { "Order ID": "US-2015-108966", "Category": "Furniture", "Region": "South", "Sales": 957.57, "Profit": -383.03, "Ship Mode": "Standard Class" },
   { "Order ID": "CA-2014-115812", "Category": "Technology", "Region": "West", "Sales": 907.15, "Profit": 90.71, "Ship Mode": "First Class" },
   { "Order ID": "CA-2017-114412", "Category": "Office Supplies", "Region": "South", "Sales": 15.55, "Profit": 5.44, "Ship Mode": "Standard Class" }
-  // You can add more rows here from your CSV
+  // We can add more rows here from given CSV
 ]);
 
 // --- 2. THE 10 QUERIES ---
